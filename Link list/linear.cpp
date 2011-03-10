@@ -20,11 +20,15 @@ using namespace std;
 
 #ifndef LIST_H
 #define LIST_H
+//constructor
 list::list()
 {
 	head = 0;
 }
 
+/*
+ * Adds node to the list
+ */
 int list::add(char * name)
 {
 	node * temp;
@@ -51,6 +55,9 @@ int list::add(char * name)
 	}
 }
 
+/*
+ * Displays the list
+ */
 void list::display()
 {
 	node * temp;
@@ -63,6 +70,7 @@ void list::display()
 	}
 }
 
+//destructor
 list::~list()
 {
 	node * temp;

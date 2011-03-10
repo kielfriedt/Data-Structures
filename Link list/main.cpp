@@ -18,6 +18,10 @@
 #include "linear.h"
 using namespace std;
 
+/*
+ * Simple main creates an instance of the list class and displays 
+ *the list and adds nodes to the list
+ */
 int main()
 {
 	list lst;

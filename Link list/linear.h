@@ -14,6 +14,7 @@
  *    You should have received a copy of the GNU General Public License
  *    along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
 struct node
 {
 	char * name;
@@ -23,10 +24,10 @@ struct node
 class list
 {
 public:
-	list();
+	list();//constructor
 	int add(char * name);
 	void display();
-	~list();
+	~list();//destructor
 private:
 	node * head;
 };
